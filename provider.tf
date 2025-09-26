@@ -10,5 +10,5 @@ terraform {
  
 provider "akamai" {
   edgerc         = "~/.edgerc"
-  config_section = "gturner_switch"
+  config_section = "terraform"
 }
