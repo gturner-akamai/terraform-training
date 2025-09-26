@@ -1,0 +1,1259 @@
+[0m[1mdata.akamai_groups.my_groups: Reading...[0m[0m
+[0m[1mdata.akamai_groups.my_groups: Read complete after 1s [id=b88cb074f08ac06e0195d77eab3debf79a89fb02][0m
+
+Changes to Outputs:
+  [32m+[0m[0m my_groups = {
+      [32m+[0m[0m groups = [
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18432"
+              [32m+[0m[0m group_name      = "Pablo and Naveen"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_107776"
+              [32m+[0m[0m group_name      = "Xiphos Admin Users"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_137216"
+              [32m+[0m[0m group_name      = "old_group"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18434"
+              [32m+[0m[0m group_name      = "alfa romeo test 2"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18435"
+              [32m+[0m[0m group_name      = "Akamai Default Subgroup - DO NOT RENAME"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18436"
+              [32m+[0m[0m group_name      = "Virginie"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18438"
+              [32m+[0m[0m group_name      = "msnbc test"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18439"
+              [32m+[0m[0m group_name      = "testtest"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18440"
+              [32m+[0m[0m group_name      = "Mapper SQA GTM"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18441"
+              [32m+[0m[0m group_name      = "Ananth - test"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_91912"
+              [32m+[0m[0m group_name      = "testgroup"
+              [32m+[0m[0m parent_group_id = "grp_69977"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_94728"
+              [32m+[0m[0m group_name      = "failovermonitor"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18446"
+              [32m+[0m[0m group_name      = "Dipankar"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_44047"
+              [32m+[0m[0m group_name      = "Akamai OPEN"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_95758"
+              [32m+[0m[0m group_name      = "SecurityCenter"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18448"
+              [32m+[0m[0m group_name      = "Virginie2"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18450"
+              [32m+[0m[0m group_name      = "Mithun"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_91157"
+              [32m+[0m[0m group_name      = "shan"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_48662"
+              [32m+[0m[0m group_name      = "HomeNG - mmiracki"
+              [32m+[0m[0m parent_group_id = "grp_48557"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_95002"
+              [32m+[0m[0m group_name      = "jtigano"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_232735"
+              [32m+[0m[0m group_name      = "Storage SRE"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_179745"
+              [32m+[0m[0m group_name      = "fofr-sqa"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_248352"
+              [32m+[0m[0m group_name      = "toby_test"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_101415"
+              [32m+[0m[0m group_name      = "api_sree"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_101414"
+              [32m+[0m[0m group_name      = "sreeapi"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_203058"
+              [32m+[0m[0m group_name      = "ttrela-sub-group"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_48945"
+              [32m+[0m[0m group_name      = "EngLearn"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_63793"
+              [32m+[0m[0m group_name      = "Test_ananth"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_48437"
+              [32m+[0m[0m group_name      = "Subgroup 2"
+              [32m+[0m[0m parent_group_id = "grp_47346"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_77371"
+              [32m+[0m[0m group_name      = "Protocol Optimization"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_300869"
+              [32m+[0m[0m group_name      = "jdutton-test"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_49218"
+              [32m+[0m[0m group_name      = "OPEN Admins"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_49731"
+              [32m+[0m[0m group_name      = "Luna Search"
+              [32m+[0m[0m parent_group_id = "grp_48557"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_56134"
+              [32m+[0m[0m group_name      = "ktest"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_84555"
+              [32m+[0m[0m group_name      = "AFG_test1"
+              [32m+[0m[0m parent_group_id = "grp_18396"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_146766"
+              [32m+[0m[0m group_name      = "Xero - Group Number 1"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_146767"
+              [32m+[0m[0m group_name      = "Xero - Group Number 2"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_95054"
+              [32m+[0m[0m group_name      = "kkwak"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_94545"
+              [32m+[0m[0m group_name      = "snoh-mae"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_48978"
+              [32m+[0m[0m group_name      = "Larry CSIRT"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_264273"
+              [32m+[0m[0m group_name      = "Test344"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_69977"
+              [32m+[0m[0m group_name      = "austin"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_292441"
+              [32m+[0m[0m group_name      = "testEM"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_246883"
+              [32m+[0m[0m group_name      = "Test"
+              [32m+[0m[0m parent_group_id = "grp_242174"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_98409"
+              [32m+[0m[0m group_name      = "PRF Admins"
+              [32m+[0m[0m parent_group_id = "grp_48557"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_250218"
+              [32m+[0m[0m group_name      = "my_marvel_group"
+              [32m+[0m[0m parent_group_id = "grp_186589"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_45675"
+              [32m+[0m[0m group_name      = "OPEN Clients"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_98410"
+              [32m+[0m[0m group_name      = "PRF Approvers"
+              [32m+[0m[0m parent_group_id = "grp_48557"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_243566"
+              [32m+[0m[0m group_name      = "where-are-you"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_243565"
+              [32m+[0m[0m group_name      = "AmyTechWriting"
+              [32m+[0m[0m parent_group_id = "grp_127960"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_52334"
+              [32m+[0m[0m group_name      = "Unilever Test DSA"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_94830"
+              [32m+[0m[0m group_name      = "Coach_Caraj"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_52092"
+              [32m+[0m[0m group_name      = "Online Store- Group"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_161151"
+              [32m+[0m[0m group_name      = "test"
+              [32m+[0m[0m parent_group_id = "grp_18427"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_192134"
+              [32m+[0m[0m group_name      = "Image Manager"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_95111"
+              [32m+[0m[0m group_name      = "shaga"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_95112"
+              [32m+[0m[0m group_name      = "tgrant"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_123531"
+              [32m+[0m[0m group_name      = "Network Partner Portal Management"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_193711"
+              [32m+[0m[0m group_name      = "Carrier"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_48557"
+              [32m+[0m[0m group_name      = "Luna Engineering"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_48558"
+              [32m+[0m[0m group_name      = "HomeNG Administrators"
+              [32m+[0m[0m parent_group_id = "grp_48557"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_48559"
+              [32m+[0m[0m group_name      = "LUNA Messages Admins"
+              [32m+[0m[0m parent_group_id = "grp_48557"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_176818"
+              [32m+[0m[0m group_name      = "Donald Test"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_193712"
+              [32m+[0m[0m group_name      = "Diane"
+              [32m+[0m[0m parent_group_id = "grp_193711"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_223925"
+              [32m+[0m[0m group_name      = "Looking Glass"
+              [32m+[0m[0m parent_group_id = "grp_186589"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_165310"
+              [32m+[0m[0m group_name      = "fofr-staging"
+              [32m+[0m[0m parent_group_id = "grp_165312"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_272312"
+              [32m+[0m[0m group_name      = "syetest"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_165311"
+              [32m+[0m[0m group_name      = "fofr-prod"
+              [32m+[0m[0m parent_group_id = "grp_165312"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_164541"
+              [32m+[0m[0m group_name      = "Media Product Architecture"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_50369"
+              [32m+[0m[0m group_name      = "CP Code 16399"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_165312"
+              [32m+[0m[0m group_name      = "fofr"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_115909"
+              [32m+[0m[0m group_name      = "Luna IDP Administrators"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18385"
+              [32m+[0m[0m group_name      = "Akamai Technologies - Assets-1-3CV382"
+              [32m+[0m[0m parent_group_id = ""
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_119251"
+              [32m+[0m[0m group_name      = "Shri-Test-SubGroup1-LVL1"
+              [32m+[0m[0m parent_group_id = "grp_119250"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18386"
+              [32m+[0m[0m group_name      = "ankkitsrivastav"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_119250"
+              [32m+[0m[0m group_name      = "Shri-Test"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18387"
+              [32m+[0m[0m group_name      = "Gaurav - new"
+              [32m+[0m[0m parent_group_id = "grp_18386"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_68562"
+              [32m+[0m[0m group_name      = "Test-Ananth"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_119253"
+              [32m+[0m[0m group_name      = "Shri-Test-SubGroup2-LVL1"
+              [32m+[0m[0m parent_group_id = "grp_119250"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18388"
+              [32m+[0m[0m group_name      = "test training"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_119252"
+              [32m+[0m[0m group_name      = "Shri-Test-SubGroup1-LVL2"
+              [32m+[0m[0m parent_group_id = "grp_119251"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18389"
+              [32m+[0m[0m group_name      = "test sub acg"
+              [32m+[0m[0m parent_group_id = "grp_18388"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_89044"
+              [32m+[0m[0m group_name      = "Xiphos"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_114647"
+              [32m+[0m[0m group_name      = "Xiphos Admin Users 1"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18390"
+              [32m+[0m[0m group_name      = "test"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_240853"
+              [32m+[0m[0m group_name      = "Test Group"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_50646"
+              [32m+[0m[0m group_name      = "austin"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_119254"
+              [32m+[0m[0m group_name      = "Shri-Test-SubGroup1-LVL3"
+              [32m+[0m[0m parent_group_id = "grp_119252"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18391"
+              [32m+[0m[0m group_name      = "jeff3"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18392"
+              [32m+[0m[0m group_name      = "Pablo Control Group 4"
+              [32m+[0m[0m parent_group_id = "grp_18391"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_127960"
+              [32m+[0m[0m group_name      = "TechWriterTestGroup"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18393"
+              [32m+[0m[0m group_name      = "test pablo 666"
+              [32m+[0m[0m parent_group_id = "grp_18392"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18394"
+              [32m+[0m[0m group_name      = "pradeep and andy and pablo"
+              [32m+[0m[0m parent_group_id = "grp_18392"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_283870"
+              [32m+[0m[0m group_name      = "CPS external infra"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_59354"
+              [32m+[0m[0m group_name      = "SENTINEL - SER"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18395"
+              [32m+[0m[0m group_name      = "VidyaTest"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_231128"
+              [32m+[0m[0m group_name      = "OPEN-subgroup"
+              [32m+[0m[0m parent_group_id = "grp_44047"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18396"
+              [32m+[0m[0m group_name      = "Sub Control Group"
+              [32m+[0m[0m parent_group_id = "grp_18395"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18397"
+              [32m+[0m[0m group_name      = "YahooTest"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_238814"
+              [32m+[0m[0m group_name      = "Dave_R"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18398"
+              [32m+[0m[0m group_name      = "meltest1"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18399"
+              [32m+[0m[0m group_name      = "CPorterTestControlGroup"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_186589"
+              [32m+[0m[0m group_name      = "Test"
+              [32m+[0m[0m parent_group_id = "grp_18439"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_73438"
+              [32m+[0m[0m group_name      = "Toplevel Log Delivery - NOCC Tier 3"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18400"
+              [32m+[0m[0m group_name      = "test sub-group"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18401"
+              [32m+[0m[0m group_name      = "CNOC training"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18402"
+              [32m+[0m[0m group_name      = "looktes"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18403"
+              [32m+[0m[0m group_name      = "HON CEO SR FR CO"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_238816"
+              [32m+[0m[0m group_name      = "Properties"
+              [32m+[0m[0m parent_group_id = "grp_238814"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18404"
+              [32m+[0m[0m group_name      = "Test Subgroup"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18405"
+              [32m+[0m[0m group_name      = "Test Akamai"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18406"
+              [32m+[0m[0m group_name      = "Jordan"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_92903"
+              [32m+[0m[0m group_name      = "TestGroup001"
+              [32m+[0m[0m parent_group_id = "grp_47346"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18407"
+              [32m+[0m[0m group_name      = "Akamai Test"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18408"
+              [32m+[0m[0m group_name      = "NUI1"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18409"
+              [32m+[0m[0m group_name      = "4-4KX3Z"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18410"
+              [32m+[0m[0m group_name      = "Test"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18411"
+              [32m+[0m[0m group_name      = "Howard - Test"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_56299"
+              [32m+[0m[0m group_name      = "Akamai Labs"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_171246"
+              [32m+[0m[0m group_name      = "Akamai Default Subgroup - DO NOT RENAME"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18412"
+              [32m+[0m[0m group_name      = "Test-ASM-Howie-ACG"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_84461"
+              [32m+[0m[0m group_name      = "Nandha Test"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18413"
+              [32m+[0m[0m group_name      = "HowieEval"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18414"
+              [32m+[0m[0m group_name      = "Publisher Control Group"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18415"
+              [32m+[0m[0m group_name      = "Sergio"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_71918"
+              [32m+[0m[0m group_name      = "test-rlichacz"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_178162"
+              [32m+[0m[0m group_name      = "PRTLDEVOPS-35061_Test"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18416"
+              [32m+[0m[0m group_name      = "Pablo"
+              [32m+[0m[0m parent_group_id = "grp_18415"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18417"
+              [32m+[0m[0m group_name      = "Test Thomas BSS"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_216562"
+              [32m+[0m[0m group_name      = "Product Ideas Portal"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_116979"
+              [32m+[0m[0m group_name      = "Sajith_PD"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18418"
+              [32m+[0m[0m group_name      = "Test BSS - Lazar"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_47346"
+              [32m+[0m[0m group_name      = "Akamai University - Group"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18419"
+              [32m+[0m[0m group_name      = "Test1"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18420"
+              [32m+[0m[0m group_name      = "Test Manuel"
+              [32m+[0m[0m parent_group_id = "grp_18419"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18421"
+              [32m+[0m[0m group_name      = "Test14"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18422"
+              [32m+[0m[0m group_name      = "Test 14BS"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_44022"
+              [32m+[0m[0m group_name      = "cashconverters"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_165365"
+              [32m+[0m[0m group_name      = "pmotejle-gtm"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18423"
+              [32m+[0m[0m group_name      = "Dept A"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18424"
+              [32m+[0m[0m group_name      = "CCARE_Hands_on_Lab"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_51192"
+              [32m+[0m[0m group_name      = "CPS Engineering"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_88313"
+              [32m+[0m[0m group_name      = "Viquez_Test"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_162299"
+              [32m+[0m[0m group_name      = "test"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18425"
+              [32m+[0m[0m group_name      = "jbullert2"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18426"
+              [32m+[0m[0m group_name      = "Test2"
+              [32m+[0m[0m parent_group_id = "grp_18421"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_43258"
+              [32m+[0m[0m group_name      = "University Admins"
+              [32m+[0m[0m parent_group_id = "grp_47346"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_56826"
+              [32m+[0m[0m group_name      = "blv"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18427"
+              [32m+[0m[0m group_name      = "Test NetStorageD"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18428"
+              [32m+[0m[0m group_name      = "Test BSS Knowledge"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_137215"
+              [32m+[0m[0m group_name      = "old_group"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18429"
+              [32m+[0m[0m group_name      = "Pablo test training"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_242174"
+              [32m+[0m[0m group_name      = "EMEA Partner Solutions Engineer (PSE)"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18430"
+              [32m+[0m[0m group_name      = "Pablo Control Group 2"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+          [32m+[0m[0m {
+              [32m+[0m[0m contract_ids    = [
+                  [32m+[0m[0m "ctr_1-3CV382",
+                ]
+              [32m+[0m[0m group_id        = "grp_18431"
+              [32m+[0m[0m group_name      = "Pablo Control Group 3"
+              [32m+[0m[0m parent_group_id = "grp_18385"
+            },
+        ]
+      [32m+[0m[0m id     = "b88cb074f08ac06e0195d77eab3debf79a89fb02"
+    }
+
+You can apply this plan to save these new output values to the Terraform
+state, without changing any real infrastructure.
+[0m[1m
+Do you want to perform these actions?[0m
+  Terraform will perform the actions described above.
+  Only 'yes' will be accepted to approve.
+
+  [1mEnter a value:[0m [0m
+Apply cancelled.
