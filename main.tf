@@ -32,9 +32,9 @@ data "akamai_group" "group_id" {
     contract_id  = data.akamai_contracts.my_contract.contracts[0].contract_id
 }
 
-output "group_id" {
-  value = data.akamai_group.group_id
-}
+#output "group_id" {
+#  value = data.akamai_group.group_id
+#}
 
 
 ## https://techdocs.akamai.com/terraform/docs/as-ds-configuration
@@ -57,10 +57,10 @@ output "my_appsec_config" {
 
 
 ## https://techdocs.akamai.com/terraform/docs/pm-ds-property
-data "akamai_property" "my_property" {
+data "akamai_property" "ksdlab_property" {
   name    = "gturner-ksdlab"
 }
 
-output "my_property" {
-  value = data.akamai_property.my_property
-}
+#output "ksd_property" {
+#  value = data.akamai_property.ksdlab_property
+#}
