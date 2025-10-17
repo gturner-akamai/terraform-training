@@ -39,7 +39,8 @@ data "akamai_property_rules_builder" "my_default_rule" {
     behavior {
       origin {
         origin_type = "CUSTOMER"
-        hostname = "3b5ba496da1c.mylabserver.com"
+        #hostname = "3b5ba496da1c.mylabserver.com"
+        hostname = var.ab_test == "A" ? "origin-a.example.com" : "origin-b.example.com"
         forward_host_header = "REQUEST_HOST_HEADER"
         cache_key_hostname = "REQUEST_HOST_HEADER"
         compress = true
@@ -60,9 +61,45 @@ resource "akamai_property" "my_property" {
   rule_format   = "v2024-10-21"
   version_notes = "GTurner - Script Club Terraform Q4 2025"
   rules         = data.akamai_property_rules_builder.my_default_rule.json
-  hostnames {
-    cname_from             = "gturner-terraform.ksdlab.juiceshoponline.com"
-    cname_to               = akamai_edge_hostname.my_edge_hostname.edge_hostname
-    cert_provisioning_type = "DEFAULT"
+  #hostnames {
+  #  cname_from             = "gturner-terraform.ksdlab.juiceshoponline.com"
+  #  cname_to               = akamai_edge_hostname.my_edge_hostname.edge_hostname
+  #  cert_provisioning_type = "DEFAULT"
+  #}
+  dynamic "hostnames" {
+    for_each = local.app_hostnames
+    content {
+      cname_from             = hostnames.value 
+      cname_to               = "${hostnames.value}.edgesuite.net" 
+      cert_provisioning_type = "DEFAULT"
+    }
   }
+}
+
+resource "akamai_property_activation" "staging_activation" {
+     property_id                    = akamai_property.my_property.id
+     network                        = "STAGING"
+     contact                        = ["gturner@akamai.com"]
+     note                           = local.notes
+     version                        = akamai_property.my_property.latest_version
+     #auto_acknowledge_rule_warnings = true
+
+     lifecycle {
+       ignore_changes = [ note ]
+     }
+}
+
+resource "akamai_property_activation" "prod_activation" {
+     property_id                    = akamai_property.my_property.id
+     network                        = "PRODUCTION"
+     contact                        = ["gturner@akamai.com"]
+     note                           = local.notes
+     version                        = akamai_property.my_property.latest_version
+     #auto_acknowledge_rule_warnings = true
+
+     lifecycle {
+       ignore_changes = [ note ]
+     }
+
+     depends_on = [ akamai_property_activation.staging_activation ]
 }

@@ -1,6 +1,8 @@
 ## VARS
 locals {
-  notes = "TF-3001_${data.akamai_group.group_id}"
+  domain = "example.com"
+  app_hostnames = [for host in var.apps : "${host}.${local.domain}"]
+  notes = "TF-3001_${data.akamai_group.group_id.id}"
 }
 
 ## https://techdocs.akamai.com/terraform/docs/common-identifiers
@@ -60,6 +62,9 @@ output "my_appsec_config" {
   value = data.akamai_appsec_configuration.my_configuration
 }
 
+output apphostnames {
+  value = local.app_hostnames
+}
 
 ## https://techdocs.akamai.com/terraform/docs/pm-ds-property
 data "akamai_property" "ksdlab_property" {
