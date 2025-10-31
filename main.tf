@@ -1,7 +1,7 @@
 ## VARS
-locals {
+/* locals {
   notes = "TF-3001_${data.akamai_group.group_id}"
-}
+} */
 
 ## https://techdocs.akamai.com/terraform/docs/common-identifiers
 

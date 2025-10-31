@@ -1,0 +1,52 @@
+openapi: 3.0.1
+info:
+  title: gturner_waaplab
+  description: WAAP Lab
+  version: 1.0.0
+servers:
+- url: gturner-ionlab.gs-akashop.com/rest
+x-akamai-api-definitions:
+  contractId: G-3AA39V0
+  groupId: 170540
+  enableApiGateway: true
+  graphQl: false
+  matchCaseSensitive: false
+  matchPathSegmentParameter: false
+  tags:
+  - WAAP lab
+  constraints:
+    enforceOn:
+      request: true
+    requestBody:
+      consumeType:
+      - any
+paths:
+  /user/login:
+    post:
+      requestBody:
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/body"
+          application/xml:
+            schema:
+              $ref: "#/components/schemas/body"
+        required: true
+      responses:
+        default:
+          description: default response
+    x-akamai-api-definitions-resource:
+      name: Login
+components:
+  schemas:
+    body:
+      type: object
+      properties:
+        email:
+          maxLength: 50
+          minLength: 6
+          type: string
+        password:
+          maxLength: 50
+          minLength: 6
+          type: string
