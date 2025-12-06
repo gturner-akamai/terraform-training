@@ -52,7 +52,7 @@ data "akamai_appsec_configuration" "my_configurations" {
 output "configuration_list" {
   value = data.akamai_appsec_configuration.my_configurations
 }
-*/
+
 
 data "akamai_appsec_configuration" "my_configuration" {
     name = "gturner-ksd"
@@ -74,3 +74,4 @@ data "akamai_property" "ksdlab_property" {
 #output "ksd_property" {
 #  value = data.akamai_property.ksdlab_property
 #}
+*/

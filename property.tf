@@ -30,6 +30,8 @@ output "edge_hostname" {
 
 # Property
 
+/* Moving the rules into a module (modules/rules) per Exercise 2
+
 ## build the Rules
 ## https://techdocs.akamai.com/terraform/docs/pm-ds-rules-builder
 data "akamai_property_rules_builder" "my_default_rule" {
@@ -51,6 +53,15 @@ data "akamai_property_rules_builder" "my_default_rule" {
 
   }
 }
+*/
+
+module "default_rules" {
+  source   = "./modules/rules"
+
+  ab_test  = var.ab_test
+  origin_a = "origin-a.example.com"
+  origin_b = "origin-b.example.com"
+}
 
 
 resource "akamai_property" "my_property" {
@@ -60,7 +71,8 @@ resource "akamai_property" "my_property" {
   group_id      = data.akamai_group.group_id.id
   rule_format   = "v2024-10-21"
   version_notes = "GTurner - Script Club Terraform Q4 2025"
-  rules         = data.akamai_property_rules_builder.my_default_rule.json
+  # rules         = data.akamai_property_rules_builder.my_default_rule.json
+  rules         = module.default_rules.rules_json
   #hostnames {
   #  cname_from             = "gturner-terraform.ksdlab.juiceshoponline.com"
   #  cname_to               = akamai_edge_hostname.my_edge_hostname.edge_hostname
@@ -76,6 +88,19 @@ resource "akamai_property" "my_property" {
   }
 }
 
+# Setup EW by calling the module
+module "edgeworker" {
+  source = "./modules/edgeworkers"
+
+  #input vars
+  # the Edgeworker resource wants only the group number
+  group_id = trimprefix(data.akamai_group.group_id.id, "grp_")
+  ew_name  = "gturner-tf-edgeworker"
+  resource_tier = 100
+  
+}
+
+/*
 resource "akamai_property_activation" "staging_activation" {
      property_id                    = akamai_property.my_property.id
      network                        = "STAGING"
@@ -103,3 +128,4 @@ resource "akamai_property_activation" "prod_activation" {
 
      depends_on = [ akamai_property_activation.staging_activation ]
 }
+*/
